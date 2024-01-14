@@ -1,0 +1,6 @@
+name: This workflow is to proceed to step 2 of workflow beginner course
+on:
+  pull_request:
+    types: [opened]
+permissions:
+  pull-requests: write
